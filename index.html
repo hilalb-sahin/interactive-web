@@ -10,12 +10,14 @@
 <body>
     <nav>
         <ul>
-            <li><p>Color Changer</p></li>
-            <li><p>Surprise Content</p></li>
-            <li><p>Chat</p></li>
+            <li><a href="#first"><p>Color Changer</p></a></li>
+            <li><a href="#second"><p>Surprise Content</p></a></li>
+            <li><a href="#third"><p>Chat</p></a></li>
         </ul>
     </nav>
 
+    <main>
+    <div id="first"></div>
     <div id="container" class="color">
         <div id="innerContainer">
             <div id="header">
@@ -44,6 +46,7 @@
         </div>
     </div>
 
+    <div id="second"></div>
     <div id='container'>
         <div id="innerContainer">
             <div id="defaultShow">
@@ -58,7 +61,7 @@
 
             <div id="showLater">
                 <h1> Congratulations! You found me.</h1>
-                <img src="transparent.gif">
+                <img src="transparent.gif" height='100%' width="100%" object-fit>
                 <p>Now please let me go back.</p>
                 <button id="hidingButton"> Return me</button>
             </div>
@@ -66,6 +69,7 @@
         </div>
     </div>
 
+    <div id="third"></div>
     <div id='container'>
 
         <div id="innerContainer"> 
@@ -95,8 +99,11 @@
             </div>
         </div>
     </div>
+
     
 
     <script src="interacting.js"></script>
+</main>
+
 </body>
 </html>
