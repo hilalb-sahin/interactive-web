@@ -1,49 +1,75 @@
 body{
+    
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:aliceblue;
     background-color: rgb(172, 172, 172);
+    justify-content: center;
+}
+
+main{
+    margin-top: 100px;
 }
 
 nav li {
+    border: 0px solid white;
     display: inline-flex;
 
-    border: 1px outset pink;
-    padding: 0 00px;
-    margin: 0 20px;
-    width: 70px;
     align-items: center;
+
+    top:0px;
+    overflow: auto; 
+    margin-inline: 5px;
     justify-content: center;
+    align-items: center;
+    width: 100px;
 }
 ul{
     padding: 0 0 0 0 ;
+    
 }
+
 nav ul{
     text-align: center;
     display: flex;
     justify-content: center;
     width: 100%;
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
+    height: auto;
 
+
+
+
+}
+
+
+nav{
+    display:flex;
+    position: fixed;
+    width: 100%;
+    height:50px;
+    top: 0;
+    left: 0;
+    background-color: rgb(122, 122, 122);
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 
 #container{
+    top:400px;
     display: flex;
     border:3px outset rgb(198, 198, 198);
     align-items: center;
     margin: 30px 30px;
     padding: 40px;
     flex-wrap: wrap;
-    width:100%;
+    width:70%;
 
     justify-content: center;
     
@@ -143,12 +169,15 @@ span{
     display: flex;
     align-items: center;
 
+    position: relative;
+
 }
 
 #firstspan{
     top:20px;
     align-items: center;
     justify-content: center;
+
 
 }
 
@@ -186,3 +215,19 @@ button{
 }
 
 
+#first{
+    height:40px;
+}
+
+#second{
+    height: 40px;
+}
+
+#third{
+    height: 40px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
