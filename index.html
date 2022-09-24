@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href= 'style.css' rel="stylesheet"> 
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><p>Color Changer</p></li>
+            <li><p>Surprise Content</p></li>
+            <li><p>Chat</p></li>
+        </ul>
+    </nav>
+
+    <div id="container" class="color">
+        <div id="innerContainer">
+            <div id="header">
+                <h1 class="colorheader">Color Changer</h1>
+
+            </div>
+
+            <div id="contentContainer">
+                    <div id = "pickColorContainer">
+
+                        <button id="mysteryButton">
+                            <p>Mystery Color</p>
+
+                        </button>
+                    </div>
+
+                    <div id= "scrollColorContainer">
+                        <button id = "scrollButton">
+                            <p>Wheel On Me</p>
+                        </button>
+
+                    </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div id='container'>
+        <div id="innerContainer">
+            <div id="defaultShow">
+            
+                <h1>Click for a surprise</h1>
+            
+            
+                <button id="showButton">click me!</button>
+            
+            </div>
+        
+
+            <div id="showLater">
+                <h1> Congratulations! You found me.</h1>
+                <img src="transparent.gif">
+                <p>Now please let me go back.</p>
+                <button id="hidingButton"> Return me</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div id='container'>
+
+        <div id="innerContainer"> 
+            <h1 for="chat"> Cat Chat</h1>
+                <p>social media for the cat...and the cat only.</p>
+
+            <form id="chatboxForm" name="formname">
+                
+                
+                <article><input onfocus = "this.value=''"  name = "text" id="text" type= "text"  value="type in..." class="text"  maxlength="50"></article>
+                <section><button  id = "submit" type="submit" value="send" name ="submit">send </button></section>
+
+            </form>
+            <img id="textingGIF"src="cat-texting.gif">
+
+            <div id="showingChat">
+
+                <ul id="chatList">
+                    
+                    <div id="chatlistDIV">
+                    <li id="firstli">
+                        <img src="cat.png" id="catlogo" height="50" width="70">
+                        <span id="firstspan"> Hi! This is my first entry....</span></li>
+                    </div>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="interacting.js"></script>
+</body>
+</html>
