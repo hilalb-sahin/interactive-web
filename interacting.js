@@ -1,3 +1,8 @@
+var script = document.createElement('script');
+script.src = 'https://code.jquery.com/jquery-3.6.0.min.js';
+document.getElementsByTagName('head')[0].appendChild(script);
+
+
 
 let mysteryButton = document.getElementById('mysteryButton');
 let background = document.getElementsByClassName('color')[0];
@@ -88,6 +93,8 @@ form.addEventListener('submit', (event)=>{
     document.querySelector('input').value=""
     
 });
+
+
 
 
 
