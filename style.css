@@ -19,18 +19,38 @@ main{
     justify-content: center;
     align-items: center;
 }
+nav{
+
+    display:flex;
+    position: fixed;
+    width: 100%;
+    height:50px;
+    top: 0;
+    left: 0;
+    background-color: rgb(122, 122, 122);
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
 
 nav li {
     border: 0px solid white;
     display: inline-flex;
+
     align-items: center;
-    font-weight: bold;
+
     top:0px;
     overflow: auto; 
     margin-inline: 5px;
     justify-content: center;
     align-items: center;
     width: 100px;
+    font-weight: bold;
 }
 ul{
     padding: 0 0 0 0 ;
@@ -49,28 +69,21 @@ nav ul{
 
 }
 
+header{
 
-nav{
     display:flex;
-    position: fixed;
-    width: 100%;
-    height:50px;
-    top: 0;
-    left: 0;
-    color: white;
-    font-family: 'Exo 2', sans-serif;
-    padding: 1em;
-    overflow: auto;
+
     justify-content: center;
-    align-items: center;
-    background-color:orange;
+    flex-direction: column;}
+header p {
+    margin:10px 50px;
 }
 
 
 #container{
     top:400px;
     display: flex;
-    border:3px outset rgb(163, 163, 163);
+    border:3px outset rgb(129, 129, 129);
     align-items: center;
     margin: 30px 30px;
     padding: 40px;
