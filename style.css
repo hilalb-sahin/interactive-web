@@ -23,9 +23,8 @@ main{
 nav li {
     border: 0px solid white;
     display: inline-flex;
-
     align-items: center;
-
+    font-weight: bold;
     top:0px;
     overflow: auto; 
     margin-inline: 5px;
@@ -58,13 +57,13 @@ nav{
     height:50px;
     top: 0;
     left: 0;
-    background-color: rgb(122, 122, 122);
     color: white;
     font-family: 'Exo 2', sans-serif;
     padding: 1em;
     overflow: auto;
     justify-content: center;
     align-items: center;
+    background-color:orange;
 }
 
 
