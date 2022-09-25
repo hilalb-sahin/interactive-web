@@ -22,7 +22,8 @@ function colorValue2() {
   function colorChange(){
     let randomColor = 'rgb(' + colorValue() + ',' + colorValue() + ',' + colorValue() + ')';
     let randomColor2 = 'rgb(' + colorValue2() + ',' + colorValue2() + ',' + colorValue2() + ')';
-    background.style.backgroundColor = randomColor;
+    //background.style.backgroundColor = randomColor;
+    document.body.style.backgroundColor = randomColor;
     header.style.color= randomColor2;
   };
   
