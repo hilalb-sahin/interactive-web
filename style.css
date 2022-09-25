@@ -70,7 +70,7 @@ nav{
 #container{
     top:400px;
     display: flex;
-    border:3px outset rgb(198, 198, 198);
+    border:3px outset rgb(163, 163, 163);
     align-items: center;
     margin: 30px 30px;
     padding: 40px;
